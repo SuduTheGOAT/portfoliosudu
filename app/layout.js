@@ -14,7 +14,7 @@ export const metadata = {
     "Portfolio website for Sri Sudarsan featuring experience, projects, skills, education, and contact details.",
   metadataBase: new URL("https://example.com"),
   openGraph: {
-    title: "Sri Sudarsan | Portfolio",
+    title: "Sri Sudarsan Tupil Ravi Desikan | Portfolio",
     description:
       "Professional portfolio and online CV for recruiters, with clear experience and easy contact details.",
     type: "website"
