@@ -12,10 +12,9 @@ export default function HomePage() {
     <div className="page">
       <header className="pageHeader">
         <hr className="accentRule" />
-        <h1 className="pageTitle">Sri Sudarsan</h1>
+        <h1 className="pageTitle">Sri Sudarsan Tupil Ravi Desikan</h1>
         <p className="lead">
-          Frontend engineer building reliable, performant digital products for
-          modern teams.
+           Computer Engineer focused on digital design, computer architecture, and hardware verification, with interests in building and validating high-performance chips and computing systems.
         </p>
         <div className="ctaRow">
           <Link href="/experience" className="buttonPrimary">
@@ -29,18 +28,16 @@ export default function HomePage() {
 
       <section className="section" aria-labelledby="intro-heading">
         <h2 id="intro-heading" className="sectionTitle">
-          Intro
+          About Me
         </h2>
         <p className="sectionText">
-          I build accessible interfaces with a clear product lens and a strong
-          focus on maintainability. My work prioritizes readable architecture,
-          measurable performance, and practical collaboration across teams.
+          I’m a Computer Engineering graduate with strong fundamentals in digital design and computer architecture, and hands-on experience in Chip Design and Verification . I interned at Tenstorrent, working on UVM-based verification of a GPU command processor, formal coverage closure, and Python-based automation to improve verification efficiency. Academically, I’ve built cycle-accurate CPU and cache-coherent systems using SystemVerilog and gem5, including pipelined and out-of-order processors. I’m interested in RTL and design verification roles, with a focus on hardware, performance, and microarchitecture-level systems..
         </p>
       </section>
 
       <section className="section" aria-labelledby="highlights-heading">
         <h2 id="highlights-heading" className="sectionTitle">
-          Quick Highlights
+          Highlights
         </h2>
         <ul className="highlights">
           {homeHighlights.map((item) => (
